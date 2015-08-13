@@ -31,7 +31,7 @@ let img1 = UIImage(asset: .Back)
 let img2 = UIImage(asset: .Forward)
 ```
 
-##Script usage
+##Usage
 1. Copy the script `xcassets.py` to project's root directory (where .xcodeproj file in).
 
 2. Excute the script in terminal:
