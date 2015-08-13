@@ -41,7 +41,7 @@ let img2 = UIImage(asset: .Forward)
 	```
 3. All done!
 
-> Every time you changed the `.xcassets` and rebuilt the project,it will automatic update the enum file.
+> Every time you change the `.xcassets` and rebuild the project,it will automatic update the enum file.
 
 ##Script argument
 
