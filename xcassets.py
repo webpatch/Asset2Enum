@@ -1515,8 +1515,7 @@ class Handler:
         enum_str = ""
         for name in self.scan_images_content():
             if name[0].isdigit():
-                print("[ERROR]: image's name can't begin with a number!"
-                      "\"%s\" is invalid" % name.replace(".imageset", ""))
+                print("[ERROR]: image's name can't begin with a number! \"%s\" is invalid." % name)
                 sys.exit(1)
             capital_str = name.title()
             enum_str += '\t\tcase {0} = "{1}"\n'.format(capital_str, name)

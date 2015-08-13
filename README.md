@@ -42,7 +42,7 @@ let img2 = UIImage(asset: .Forward)
 	```
 3. All done!
 
-> Every time you change the `.xcassets` and rebuild the project,it will automatic update the enum file.
+> <font color="#ff0000">When you change the `.xcassets` file, you need to rebuild the project first, and then it will automatic update the enum file.</font>
 
 ###Uninstall
 1. Delete the `AssetImages.swift` (choose `Move to Trash`) from Xcode.
