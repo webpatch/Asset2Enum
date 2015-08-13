@@ -33,7 +33,7 @@ let img2 = UIImage(asset: .Forward)
 
 ##Usage
 ###Install (Once for all)
-1. Download the [xcassets.py](https://raw.githubusercontent.com/webpatch/xcassets-enum-automatic-generator/master/xcassets.py) and copy it to project's root directory (where .xcodeproj file in).
+1. Download the [xcassets.py](https://raw.githubusercontent.com/webpatch/xcassets-enum-automatic-generator/master/xcassets.py) and copy it to project's root directory (where the `.xcodeproj` file is located).
 
 2. Excute the script in terminal:
 
