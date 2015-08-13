@@ -32,7 +32,8 @@ let img2 = UIImage(asset: .Forward)
 ```
 
 ##Usage
-1. Copy the script `xcassets.py` to project's root directory (where .xcodeproj file in).
+###Install (Once for all)
+1. Download the [xcassets.py](https://raw.githubusercontent.com/webpatch/xcassets-enum-automatic-generator/master/xcassets.py) and copy it to project's root directory (where .xcodeproj file in).
 
 2. Excute the script in terminal:
 
@@ -42,6 +43,11 @@ let img2 = UIImage(asset: .Forward)
 3. All done!
 
 > Every time you change the `.xcassets` and rebuild the project,it will automatic update the enum file.
+
+###Uninstall
+1. Delete the `AssetImages.swift` (choose `Move to Trash`) from Xcode.
+2. In project's `Build Phases` settings, delete the entry of `Auto generate xcassets enums`.
+3. Delete `xcassets.py`.
 
 ##Script argument
 
