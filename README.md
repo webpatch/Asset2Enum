@@ -2,7 +2,7 @@
 Automatic generate  enum based on `.xcassets` file
 
 ## Enum
-The enum file `AssetImages.swift` will look something like the following:
+The enum file `AssetImages.swift` will look like the following:
 
 ```swift
 import UIKit
