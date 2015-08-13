@@ -4,7 +4,7 @@ Automatic generate  enum based on `.xcassets` file
 ## Enum
 The enum file `AssetImages.swift` will look something like the following:
 
-```
+```swift
 import UIKit
 extension UIImage {
 	enum Asset : String {
@@ -26,7 +26,7 @@ extension UIImage {
 
 Once the enum file generated and added to Xcode, you can use it like the following:
 
-```
+```swift
 let img1 = UIImage(asset: .Back)
 let img2 = UIImage(asset: .Forward)
 ```
@@ -36,11 +36,12 @@ let img2 = UIImage(asset: .Forward)
 
 2. Excute the script in terminal:
 
-	```
+	```shell
 	python xcassets.py -i
 	```
 3. All done!
 
+> Every time you changed the `.xcassets` and rebuilt the project,it will automatic update the enum file.
 
 ##Script argument
 
