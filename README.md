@@ -1,6 +1,8 @@
 # xcassets enum automatic generator
 Automatic generate  enum based on `.xcassets` file
 
+![preview](https://raw.githubusercontent.com/webpatch/xcassets-enum-automatic-generator/master/preview/preview.jpg)
+
 ## Enum
 The enum file `AssetImages.swift` will look like the following:
 
